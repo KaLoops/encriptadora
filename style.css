@@ -1,0 +1,119 @@
+*{
+    background-color: #bc8f8f;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logoAlura{
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 2%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area{
+    border: none;
+    color:#dc143c;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder{ 
+    color:#dc143c;
+}
+
+
+textarea:hover::placeholder{
+    color: #800000;
+}
+    .text-area:focus{
+        outline: none;
+    }
+
+    .mensagem{
+        background:#f6cccc;
+        /*background-image:url(/assets/cranioBinarios.jpg);*/
+        background-repeat: no-repeat;
+        border: 5px solid #dc143c;
+        border-radius: 24px;
+        margin-left: 90px;
+        margin-top: 20px;
+        padding-left: 20px;
+        position: fixed;
+    }   
+    .mensagem:focus{
+        outline: none;
+    }
+
+    .botoes{
+        display: flex;
+        align-items: center;
+        margin-top: 18px;
+        gap: 180px;
+    }
+
+    .btn-encriptar{
+        width: 10rem;
+        border-radius: 23px;
+        border: 3px solid #dc143c;
+        box-shadow: 10px 10px 10px 5px black;
+        background-color: darksalmon;
+    }
+
+
+    .btn-desencriptar{
+        width: 10rem;
+        border-radius: 23px;
+        border: 3px solid #dc143c;
+        box-shadow: 10px 10px 10px 5px black;
+        background-color: darksalmon;
+    }
+
+
+    .btn-copiar{
+        width: 10rem;
+        border-radius: 23px;
+        border: 3px solid #dc143c;
+        box-shadow: 10px 10px 10px 5px black;
+        background-color: darksalmon;
+    }
+
+
+    
+
+    div.source,
+    div.target{
+        border: 1px solid #dc143c;
+        margin: 0.5rem;
+        padding: 0.5rem;
+        height: 1rem;
+        background-color:#bc8f8f;
+    } 
+    
+    .copy-area{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        border: solid #dc143c 2px;
+        background-color: #bc8f8f;
+        border-radius: 23px;
+        padding: 20px;
+    }
+
+    /*estilizar botoes class btn
+    estilizar class informação*/
+
+
+
+
+
+
+
+
